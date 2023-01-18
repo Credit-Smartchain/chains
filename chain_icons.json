@@ -1311,14 +1311,6 @@
     "height": 297
   }]
 }, {
-  "name": "cscscan",
-  "icons": [{
-    "url": "ipfs://bafkreifbso3gd4wu5wxl27xyurxctmuae2jyuy37guqtzx23nga6ba4ag4",
-    "width": 1000,
-    "height": 1628,
-    "format": "png"
-  }]
-}, {
   "name": "exn",
   "icons": [{
     "url": "ipfs://QmaQxfwpXYTomUd24PMx5tKjosupXcm99z1jL1XLq9LWBS",
