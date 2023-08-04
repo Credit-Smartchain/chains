@@ -6047,7 +6047,7 @@
   "name": "Credit Smartchain Mainnet",
   "chainId": 13308,
   "shortName": "Credit",
-  "networkId": 1,
+  "networkId": 13308,
   "nativeCurrency": {
     "name": "Credit",
     "symbol": "CREDIT",
