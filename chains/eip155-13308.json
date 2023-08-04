@@ -1,5 +1,5 @@
 {
-  "name": "Credit Smartchain Mainnet",
+  "name": "Credit Smart Chain",
   "chain": "CREDIT",
   "rpc": ["https://rpc.creditsmartchain.com"],
   "faucets": [],
