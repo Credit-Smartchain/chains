@@ -8836,7 +8836,7 @@
 }, {
   "name": "Credit Smartchain Mainnet",
   "chain": "CREDIT",
-  "rpc": ["https://mainnet-rpc.creditsmartchain.com"],
+  "rpc": ["https://rpc.creditsmartchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Credit",
