@@ -6053,7 +6053,7 @@
     "symbol": "CREDIT",
     "decimals": 18
   },
-  "rpc": ["https://mainnet-rpc.cscscan.io"],
+  "rpc": ["https://mainnet-rpc.creditsmartchain.com"],
   "faucets": [],
   "infoURL": "https://creditsmartchain.com"
 }, {

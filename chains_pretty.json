@@ -8836,7 +8836,7 @@
 }, {
   "name": "Credit Smartchain Mainnet",
   "chain": "CREDIT",
-  "rpc": ["https://mainnet-rpc.cscscan.io"],
+  "rpc": ["https://mainnet-rpc.creditsmartchain.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Credit",
@@ -8855,7 +8855,7 @@
   "icon": "credit",
   "explorers": [{
     "name": "CSC Scan",
-    "url": "https://explorer.cscscan.io",
+    "url": "https://scan.creditsmartchain.com",
     "icon": "credit",
     "standard": "EIP3091"
   }]
