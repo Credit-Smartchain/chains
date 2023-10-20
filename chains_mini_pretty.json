@@ -7370,6 +7370,19 @@
   "faucets": [],
   "infoURL": "https://www.onbeam.com"
 }, {
+  "name": "Credit Smart Chain",
+  "chainId": 4400,
+  "shortName": "Credit",
+  "networkId": 4400,
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.creditsmartchain.com"],
+  "faucets": [],
+  "infoURL": "https://creditsmartchain.com"
+}, {
   "name": "Htmlcoin Mainnet",
   "chainId": 4444,
   "shortName": "html",
@@ -9501,19 +9514,6 @@
   "rpc": ["https://rpc.ssquad.games"],
   "faucets": [],
   "infoURL": "https://ssquad.games/"
-}, {
-  "name": "Credit Smart Chain",
-  "chainId": 13308,
-  "shortName": "Credit",
-  "networkId": 13308,
-  "nativeCurrency": {
-    "name": "Credit",
-    "symbol": "CREDIT",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.creditsmartchain.com"],
-  "faucets": [],
-  "infoURL": "https://creditsmartchain.com"
 }, {
   "name": "Beam Testnet",
   "chainId": 13337,

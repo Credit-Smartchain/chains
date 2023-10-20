@@ -11422,6 +11422,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Credit Smart Chain",
+  "chain": "CREDIT",
+  "rpc": ["https://rpc.creditsmartchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://creditsmartchain.com",
+  "shortName": "Credit",
+  "chainId": 4400,
+  "networkId": 4400,
+  "icon": "credit",
+  "explorers": [{
+    "name": "Creditscan",
+    "url": "https://scan.creditsmartchain.com",
+    "icon": "credit",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Htmlcoin Mainnet",
   "chain": "mainnet",
   "rpc": ["https://janus.htmlcoin.com/api/"],
@@ -14735,32 +14761,6 @@
   "explorers": [{
     "name": "SPS Explorer",
     "url": "http://spsscan.ssquad.games",
-    "standard": "EIP3091"
-  }]
-}, {
-  "name": "Credit Smart Chain",
-  "chain": "CREDIT",
-  "rpc": ["https://rpc.creditsmartchain.com"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Credit",
-    "symbol": "CREDIT",
-    "decimals": 18
-  },
-  "features": [{
-    "name": "EIP155"
-  }, {
-    "name": "EIP1559"
-  }],
-  "infoURL": "https://creditsmartchain.com",
-  "shortName": "Credit",
-  "chainId": 13308,
-  "networkId": 13308,
-  "icon": "credit",
-  "explorers": [{
-    "name": "Creditscan",
-    "url": "https://scan.creditsmartchain.com",
-    "icon": "credit",
     "standard": "EIP3091"
   }]
 }, {
