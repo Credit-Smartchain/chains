@@ -2,7 +2,7 @@
   "name": "Ethereum Mainnet",
   "chain": "ETH",
   "icon": "ethereum",
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast"],
   "features": [{
     "name": "EIP155"
   }, {
@@ -644,20 +644,26 @@
   "chainId": 33,
   "networkId": 33
 }, {
-  "name": "Dithereum Testnet",
-  "chain": "DTH",
-  "icon": "dithereum",
-  "rpc": ["https://node-testnet.dithereum.io"],
-  "faucets": ["https://faucet.dithereum.org"],
+  "name": "SecureChain Mainnet",
+  "chain": "SCAI",
+  "icon": "SCAIIcon",
+  "rpc": ["https://mainnet-rpc.scai.network"],
+  "faucets": ["https://faucet.securechain.ai"],
   "nativeCurrency": {
-    "name": "Dither",
-    "symbol": "DTH",
+    "name": "SecureChain",
+    "symbol": "SCAI",
     "decimals": 18
   },
-  "infoURL": "https://dithereum.org",
-  "shortName": "dth",
+  "infoURL": "https://securechain.ai",
+  "shortName": "scai",
   "chainId": 34,
-  "networkId": 34
+  "networkId": 34,
+  "redFlags": ["reusedChainId"],
+  "explorers": [{
+    "name": "SecureChain Mainnet",
+    "url": "https://explorer.securechain.ai",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "TBWG Chain",
   "chain": "TBWG",
@@ -3273,6 +3279,27 @@
     "name": "opbnbscan",
     "url": "https://mainnet.opbnbscan.com",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "VinuChain Network",
+  "chain": "VinuChain",
+  "icon": "vitainu",
+  "rpc": ["https://vinuchain-rpc.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "VinuChain",
+    "symbol": "VС",
+    "decimals": 18
+  },
+  "infoURL": "https://vitainu.org",
+  "shortName": "VC",
+  "chainId": 207,
+  "networkId": 207,
+  "explorers": [{
+    "name": "VinuScan",
+    "url": "https://vinuscan.com",
+    "icon": "vinuscan",
+    "standard": "none"
   }]
 }, {
   "name": "Structx Mainnet",
@@ -11422,32 +11449,6 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "Credit Smart Chain",
-  "chain": "CREDIT",
-  "rpc": ["https://rpc.creditsmartchain.com"],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Credit",
-    "symbol": "CREDIT",
-    "decimals": 18
-  },
-  "features": [{
-    "name": "EIP155"
-  }, {
-    "name": "EIP1559"
-  }],
-  "infoURL": "https://creditsmartchain.com",
-  "shortName": "Credit",
-  "chainId": 4400,
-  "networkId": 4400,
-  "icon": "credit",
-  "explorers": [{
-    "name": "Creditscan",
-    "url": "https://scan.creditsmartchain.com",
-    "icon": "credit",
-    "standard": "EIP3091"
-  }]
-}, {
   "name": "Htmlcoin Mainnet",
   "chain": "mainnet",
   "rpc": ["https://janus.htmlcoin.com/api/"],
@@ -14764,6 +14765,32 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Credit Smart Chain",
+  "chain": "CREDIT",
+  "rpc": ["https://rpc.creditsmartchain.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "infoURL": "https://creditsmartchain.com",
+  "shortName": "Credit",
+  "chainId": 13308,
+  "networkId": 13308,
+  "icon": "credit",
+  "explorers": [{
+    "name": "Creditscan",
+    "url": "https://scan.creditsmartchain.com",
+    "icon": "credit",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Beam Testnet",
   "chain": "BEAM",
   "rpc": ["https://subnets.avax.network/beam/testnet/rpc"],
@@ -16573,7 +16600,7 @@
   }]
 }, {
   "name": "Bifrost Testnet",
-  "title": "The Bifrost Testnet network",
+  "title": "Bifrost Network Testnet",
   "chain": "BFC",
   "rpc": ["https://public-01.testnet.thebifrost.io/rpc", "https://public-02.testnet.thebifrost.io/rpc"],
   "faucets": [],
@@ -18901,6 +18928,25 @@
     "name": "blockscout",
     "url": "https://explorer.jolnir.taiko.xyz",
     "standard": "EIP3091"
+  }]
+}, {
+  "name": "Bitica Chain Mainnet",
+  "chain": "BDCC",
+  "rpc": ["https://mainnet-rpc.biticablockchain.com/"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Bitica Coin",
+    "symbol": "BDCC",
+    "decimals": 18
+  },
+  "infoURL": "https://biticablockchain.com/",
+  "shortName": "bdcc",
+  "chainId": 188710,
+  "networkId": 188710,
+  "explorers": [{
+    "name": "Bitica DPOS Blockchain Explorer",
+    "url": "https://biticablockchain.com",
+    "standard": "none"
   }]
 }, {
   "name": "Condor Test Network",

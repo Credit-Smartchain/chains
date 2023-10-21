@@ -991,6 +991,14 @@
     "format": "png"
   }]
 }, {
+  "name": "vitainu",
+  "icons": [{
+    "url": "ipfs://bafkreidtie4srt52ry67wd3dpxhklmug2ozrawvf3jdlljveinp3frutra",
+    "width": 2000,
+    "height": 392,
+    "format": "png"
+  }]
+}, {
   "name": "treasurenet",
   "icons": [{
     "url": "ipfs://QmTcNX8ukHkXiVfVah1W8Sed3vtGN95Sq2QSimfLuHva6B",
@@ -1068,14 +1076,6 @@
     "url": "ipfs://bafkreig54jss26xllpjbclmfgwvot72m4ku7qxignhlqei6mijvwi2m4pu",
     "width": 1062,
     "height": 1069,
-    "format": "png"
-  }]
-}, {
-  "name": "dithereum",
-  "icons": [{
-    "url": "ipfs://QmSHN5GtRGpMMpszSn1hF47ZSLRLqrLxWsQ48YYdJPyjLf",
-    "width": 500,
-    "height": 500,
     "format": "png"
   }]
 }, {
@@ -1844,6 +1844,14 @@
     "url": "ipfs://QmPuQ6gaCfUtNdRuaEDbdhot2m2KCy2ZHCJUvZXJAtdeyJ",
     "width": 800,
     "height": 800,
+    "format": "png"
+  }]
+}, {
+  "name": "SCAIIcon",
+  "icons": [{
+    "url": "ipfs://QmVNLDQ7edirox9gAehyen9gLHq64Z5532EXsLvSaVfjWh",
+    "width": 65,
+    "height": 65,
     "format": "png"
   }]
 }, {
@@ -2957,6 +2965,14 @@
     "width": 471,
     "height": 512,
     "format": "png"
+  }]
+}, {
+  "name": "vinuscan",
+  "icons": [{
+    "url": "ipfs://bafkreiayq7a5qncxzlilfnvpgzt4pwfxbof2qrqr2nyd2suztfummpty4i",
+    "width": 2000,
+    "height": 2000,
+    "format": "jpg"
   }]
 }, {
   "name": "crossbell",

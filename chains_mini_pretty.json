@@ -8,7 +8,7 @@
     "symbol": "ETH",
     "decimals": 18
   },
-  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost"],
+  "rpc": ["https://mainnet.infura.io/v3/${INFURA_API_KEY}", "wss://mainnet.infura.io/ws/v3/${INFURA_API_KEY}", "https://api.mycryptoapi.com/eth", "https://cloudflare-eth.com", "https://ethereum.publicnode.com", "wss://ethereum.publicnode.com", "https://mainnet.gateway.tenderly.co", "wss://mainnet.gateway.tenderly.co", "https://rpc.blocknative.com/boost", "https://rpc.flashbots.net", "https://rpc.flashbots.net/fast"],
   "faucets": [],
   "infoURL": "https://ethereum.org"
 }, {
@@ -428,18 +428,18 @@
   "faucets": [],
   "infoURL": "https://www.goodata.org"
 }, {
-  "name": "Dithereum Testnet",
+  "name": "SecureChain Mainnet",
   "chainId": 34,
-  "shortName": "dth",
+  "shortName": "scai",
   "networkId": 34,
   "nativeCurrency": {
-    "name": "Dither",
-    "symbol": "DTH",
+    "name": "SecureChain",
+    "symbol": "SCAI",
     "decimals": 18
   },
-  "rpc": ["https://node-testnet.dithereum.io"],
-  "faucets": ["https://faucet.dithereum.org"],
-  "infoURL": "https://dithereum.org"
+  "rpc": ["https://mainnet-rpc.scai.network"],
+  "faucets": ["https://faucet.securechain.ai"],
+  "infoURL": "https://securechain.ai"
 }, {
   "name": "TBWG Chain",
   "chainId": 35,
@@ -2182,6 +2182,19 @@
   "rpc": ["https://opbnb-mainnet-rpc.bnbchain.org", "https://opbnb-mainnet.nodereal.io/v1/64a9df0874fb4a93b9d0a3849de012d3", "wss://opbnb-mainnet.nodereal.io/ws/v1/64a9df0874fb4a93b9d0a3849de012d3", "https://opbnb-mainnet.nodereal.io/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "wss://opbnb-mainnet.nodereal.io/ws/v1/e9a36765eb8a40b9bd12e680a1fd2bc5", "https://opbnb.publicnode.com", "wss://opbnb.publicnode.com"],
   "faucets": [],
   "infoURL": "https://opbnb.bnbchain.org/en"
+}, {
+  "name": "VinuChain Network",
+  "chainId": 207,
+  "shortName": "VC",
+  "networkId": 207,
+  "nativeCurrency": {
+    "name": "VinuChain",
+    "symbol": "VС",
+    "decimals": 18
+  },
+  "rpc": ["https://vinuchain-rpc.com"],
+  "faucets": [],
+  "infoURL": "https://vitainu.org"
 }, {
   "name": "Structx Mainnet",
   "chainId": 208,
@@ -7370,19 +7383,6 @@
   "faucets": [],
   "infoURL": "https://www.onbeam.com"
 }, {
-  "name": "Credit Smart Chain",
-  "chainId": 4400,
-  "shortName": "Credit",
-  "networkId": 4400,
-  "nativeCurrency": {
-    "name": "Credit",
-    "symbol": "CREDIT",
-    "decimals": 18
-  },
-  "rpc": ["https://rpc.creditsmartchain.com"],
-  "faucets": [],
-  "infoURL": "https://creditsmartchain.com"
-}, {
   "name": "Htmlcoin Mainnet",
   "chainId": 4444,
   "shortName": "html",
@@ -9514,6 +9514,19 @@
   "rpc": ["https://rpc.ssquad.games"],
   "faucets": [],
   "infoURL": "https://ssquad.games/"
+}, {
+  "name": "Credit Smart Chain",
+  "chainId": 13308,
+  "shortName": "Credit",
+  "networkId": 13308,
+  "nativeCurrency": {
+    "name": "Credit",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.creditsmartchain.com"],
+  "faucets": [],
+  "infoURL": "https://creditsmartchain.com"
 }, {
   "name": "Beam Testnet",
   "chainId": 13337,
@@ -12127,6 +12140,19 @@
   "rpc": ["https://rpc.jolnir.taiko.xyz"],
   "faucets": [],
   "infoURL": "https://taiko.xyz"
+}, {
+  "name": "Bitica Chain Mainnet",
+  "chainId": 188710,
+  "shortName": "bdcc",
+  "networkId": 188710,
+  "nativeCurrency": {
+    "name": "Bitica Coin",
+    "symbol": "BDCC",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.biticablockchain.com/"],
+  "faucets": [],
+  "infoURL": "https://biticablockchain.com/"
 }, {
   "name": "Condor Test Network",
   "chainId": 188881,
